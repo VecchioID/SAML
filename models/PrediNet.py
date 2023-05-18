@@ -4,6 +4,10 @@ from util import log
 import numpy as np
 from modules import *
 
+"""
+Modified version from https://github.com/giancarlok/relationaltasks
+"""
+
 class Model(nn.Module):
 	def __init__(self, task_gen, args):
 		super(Model, self).__init__()

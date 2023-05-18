@@ -8,6 +8,7 @@ sys.dont_write_bytecode = True
 from util import log
 
 """
+Modified version from https://github.com/giancarlok/relationaltasks
 Combinatorics:
 For n objects, there are n^2 possible combinations, n of which will be 'same' trials.
 To balance 'same' and 'different' trials, create copies of 'same' trials.

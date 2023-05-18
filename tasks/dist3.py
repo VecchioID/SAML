@@ -11,6 +11,7 @@ sys.dont_write_bytecode = True
 from util import log
 
 """
+Modified version from https://github.com/giancarlok/relationaltasks
 Combinatorics:
 For n objects, there are c = nC3 possible combinations of 3 objects.
 For each of c combinations, there are p = 3*2*1 permutations.

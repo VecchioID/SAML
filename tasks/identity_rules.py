@@ -13,6 +13,7 @@ sys.dont_write_bytecode = True
 from util import log
 
 """
+Modified version from https://github.com/giancarlok/relationaltasks
 Combinatorics:
 n is total number of objects in training or test set
 for training set, n will actually be (n - m)

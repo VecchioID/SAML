@@ -11,6 +11,11 @@ from skimage.util import random_noise
 from kornia.geometry.transform import translate
 
 
+"""
+Modified version of Vaishnav, M., & Serre, T. (2022). MAREO: Memory-and Attention-based visual REasOning. arXiv preprint arXiv:2206.04928.
+"""
+
+
 # https://debuggercafe.com/adding-noise-to-image-data-for-deep-learning-data-augmentation/
 def add_noise(img, device, mode):
     dtype = img.dtype

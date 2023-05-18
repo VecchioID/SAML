@@ -98,17 +98,10 @@ all_imgs = torch.stack(all_imgs, 0)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.cuda.cudnn_enabled = True
-# np.random.seed(args.seed)
-# torch.manual_seed(args.seed)
-# torch.cuda.manual_seed(args.seed)
 
 # initialise model
 model = Solver(args, task_gen).to(device)
 
-
-# if parameters of this model is needed
-# from torchsummary import summary
-# summary(model, input_size=(16, 80, 80))
 
 # define train, validate, and test functions
 def train(epoch):

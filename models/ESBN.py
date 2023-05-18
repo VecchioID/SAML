@@ -12,6 +12,10 @@ from basic_model import BasicModel
 from modules import *
 
 
+"""
+Modified version from https://github.com/giancarlok/relationaltasks
+"""
+
 
 class Model(nn.Module):
     def __init__(self, args, task_gen):

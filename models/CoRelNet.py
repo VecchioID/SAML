@@ -9,6 +9,12 @@ from modules import *
 import math
 
 
+"""
+Modified version of the CoRelNet model from https://github.com/giancarlok/relationaltasks
+"""
+
+
+
 def mirror(v):
     m = v.shape[-1]
     n = 2 * m - 1
