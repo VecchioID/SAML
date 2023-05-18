@@ -1,6 +1,6 @@
 ## SAML
 
-Code for reproduce results for our paper.
+Code for reproduce results for our paper. A full version of our code will be realeased soon.
 
 Demo: run `python3 main.py` to reproduce the results.
 

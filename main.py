@@ -129,7 +129,7 @@ def train(epoch):
         print("Epoch {}: Avg Training Acc: {:.4f}, Loss: {:.6f}".format(epoch, acc_all / float(counter), loss_all / float(counter)), file=log_txt)
         log.info("Epoch {}: Avg Training Acc: {:.4f}, Loss: {:.6f}".format(epoch, acc_all / float(counter), loss_all / float(counter)))
 
-    # 一个epoch保存一次
+
     check_path('./results/')
     train_prog_dir = './results/train_prog/'
     task_dir = train_prog_dir + args.task + '/'
